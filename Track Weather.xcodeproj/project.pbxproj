@@ -8,17 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		009FFD092B8274950013B44B /* Track_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009FFD082B8274950013B44B /* Track_WeatherApp.swift */; };
-		009FFD0B2B8274950013B44B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009FFD0A2B8274950013B44B /* ContentView.swift */; };
+		009FFD0B2B8274950013B44B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009FFD0A2B8274950013B44B /* HomeView.swift */; };
 		009FFD0D2B8274970013B44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD0C2B8274970013B44B /* Assets.xcassets */; };
 		009FFD102B8274970013B44B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD0F2B8274970013B44B /* Preview Assets.xcassets */; };
+		009FFD292B83D0200013B44B /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD172B83D0200013B44B /* SF-Pro-Display-ThinItalic.otf */; };
+		009FFD2A2B83D0200013B44B /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD182B83D0200013B44B /* SF-Pro-Display-Black.otf */; };
+		009FFD2B2B83D0200013B44B /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD192B83D0200013B44B /* SF-Pro-Display-Ultralight.otf */; };
+		009FFD2C2B83D0200013B44B /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD1A2B83D0200013B44B /* SF-Pro-Display-MediumItalic.otf */; };
+		009FFD2D2B83D0200013B44B /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD1B2B83D0200013B44B /* SF-Pro-Display-Medium.otf */; };
+		009FFD2E2B83D0200013B44B /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD1C2B83D0200013B44B /* SF-Pro-Display-Light.otf */; };
+		009FFD2F2B83D0200013B44B /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD1D2B83D0200013B44B /* SF-Pro-Display-Regular.otf */; };
+		009FFD302B83D0200013B44B /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD1E2B83D0200013B44B /* SF-Pro-Display-SemiboldItalic.otf */; };
+		009FFD312B83D0200013B44B /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD1F2B83D0200013B44B /* SF-Pro-Display-Heavy.otf */; };
+		009FFD322B83D0200013B44B /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD202B83D0200013B44B /* SF-Pro-Display-BoldItalic.otf */; };
+		009FFD332B83D0200013B44B /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD212B83D0200013B44B /* SF-Pro-Display-LightItalic.otf */; };
+		009FFD342B83D0200013B44B /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD222B83D0200013B44B /* SF-Pro-Display-Thin.otf */; };
+		009FFD352B83D0200013B44B /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD232B83D0200013B44B /* SF-Pro-Display-Bold.otf */; };
+		009FFD362B83D0200013B44B /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD242B83D0200013B44B /* SF-Pro-Display-HeavyItalic.otf */; };
+		009FFD372B83D0200013B44B /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD252B83D0200013B44B /* SF-Pro-Display-RegularItalic.otf */; };
+		009FFD382B83D0200013B44B /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD262B83D0200013B44B /* SF-Pro-Display-Semibold.otf */; };
+		009FFD392B83D0200013B44B /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD272B83D0200013B44B /* SF-Pro-Display-UltralightItalic.otf */; };
+		009FFD3A2B83D0200013B44B /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 009FFD282B83D0200013B44B /* SF-Pro-Display-BlackItalic.otf */; };
+		009FFD3D2B846ED50013B44B /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009FFD3C2B846ED50013B44B /* DetailsView.swift */; };
+		009FFD3F2B85D23D0013B44B /* HourTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009FFD3E2B85D23D0013B44B /* HourTile.swift */; };
+		009FFD442B85E0650013B44B /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009FFD432B85E0650013B44B /* DetailsViewModel.swift */; };
+		009FFD472B85E0CE0013B44B /* HourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009FFD462B85E0CE0013B44B /* HourModel.swift */; };
+		009FFD492B85E1B20013B44B /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009FFD482B85E1B20013B44B /* K.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		009FFD052B8274950013B44B /* Track Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Track Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		009FFD082B8274950013B44B /* Track_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track_WeatherApp.swift; sourceTree = "<group>"; };
-		009FFD0A2B8274950013B44B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		009FFD0A2B8274950013B44B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		009FFD0C2B8274970013B44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		009FFD0F2B8274970013B44B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		009FFD172B83D0200013B44B /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		009FFD182B83D0200013B44B /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		009FFD192B83D0200013B44B /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		009FFD1A2B83D0200013B44B /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		009FFD1B2B83D0200013B44B /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		009FFD1C2B83D0200013B44B /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		009FFD1D2B83D0200013B44B /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		009FFD1E2B83D0200013B44B /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		009FFD1F2B83D0200013B44B /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		009FFD202B83D0200013B44B /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		009FFD212B83D0200013B44B /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		009FFD222B83D0200013B44B /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		009FFD232B83D0200013B44B /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		009FFD242B83D0200013B44B /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		009FFD252B83D0200013B44B /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		009FFD262B83D0200013B44B /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		009FFD272B83D0200013B44B /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		009FFD282B83D0200013B44B /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		009FFD3B2B83D09D0013B44B /* Track-Weather-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Track-Weather-Info.plist"; sourceTree = SOURCE_ROOT; };
+		009FFD3C2B846ED50013B44B /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		009FFD3E2B85D23D0013B44B /* HourTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourTile.swift; sourceTree = "<group>"; };
+		009FFD432B85E0650013B44B /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		009FFD462B85E0CE0013B44B /* HourModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourModel.swift; sourceTree = "<group>"; };
+		009FFD482B85E1B20013B44B /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +98,13 @@
 		009FFD072B8274950013B44B /* Track Weather */ = {
 			isa = PBXGroup;
 			children = (
+				009FFD3B2B83D09D0013B44B /* Track-Weather-Info.plist */,
+				009FFD162B83CFF40013B44B /* Fonts */,
 				009FFD082B8274950013B44B /* Track_WeatherApp.swift */,
-				009FFD0A2B8274950013B44B /* ContentView.swift */,
+				009FFD482B85E1B20013B44B /* K.swift */,
+				009FFD452B85E0A70013B44B /* Model */,
+				009FFD402B85E00D0013B44B /* View */,
+				009FFD422B85E03A0013B44B /* ViewModel */,
 				009FFD0C2B8274970013B44B /* Assets.xcassets */,
 				009FFD0E2B8274970013B44B /* Preview Content */,
 			);
@@ -65,6 +117,65 @@
 				009FFD0F2B8274970013B44B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		009FFD162B83CFF40013B44B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				009FFD182B83D0200013B44B /* SF-Pro-Display-Black.otf */,
+				009FFD282B83D0200013B44B /* SF-Pro-Display-BlackItalic.otf */,
+				009FFD232B83D0200013B44B /* SF-Pro-Display-Bold.otf */,
+				009FFD202B83D0200013B44B /* SF-Pro-Display-BoldItalic.otf */,
+				009FFD1F2B83D0200013B44B /* SF-Pro-Display-Heavy.otf */,
+				009FFD242B83D0200013B44B /* SF-Pro-Display-HeavyItalic.otf */,
+				009FFD1C2B83D0200013B44B /* SF-Pro-Display-Light.otf */,
+				009FFD212B83D0200013B44B /* SF-Pro-Display-LightItalic.otf */,
+				009FFD1B2B83D0200013B44B /* SF-Pro-Display-Medium.otf */,
+				009FFD1A2B83D0200013B44B /* SF-Pro-Display-MediumItalic.otf */,
+				009FFD1D2B83D0200013B44B /* SF-Pro-Display-Regular.otf */,
+				009FFD252B83D0200013B44B /* SF-Pro-Display-RegularItalic.otf */,
+				009FFD262B83D0200013B44B /* SF-Pro-Display-Semibold.otf */,
+				009FFD1E2B83D0200013B44B /* SF-Pro-Display-SemiboldItalic.otf */,
+				009FFD222B83D0200013B44B /* SF-Pro-Display-Thin.otf */,
+				009FFD172B83D0200013B44B /* SF-Pro-Display-ThinItalic.otf */,
+				009FFD192B83D0200013B44B /* SF-Pro-Display-Ultralight.otf */,
+				009FFD272B83D0200013B44B /* SF-Pro-Display-UltralightItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		009FFD402B85E00D0013B44B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				009FFD412B85E0230013B44B /* Component */,
+				009FFD0A2B8274950013B44B /* HomeView.swift */,
+				009FFD3C2B846ED50013B44B /* DetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		009FFD412B85E0230013B44B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				009FFD3E2B85D23D0013B44B /* HourTile.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		009FFD422B85E03A0013B44B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				009FFD432B85E0650013B44B /* DetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		009FFD452B85E0A70013B44B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				009FFD462B85E0CE0013B44B /* HourModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +236,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009FFD342B83D0200013B44B /* SF-Pro-Display-Thin.otf in Resources */,
 				009FFD102B8274970013B44B /* Preview Assets.xcassets in Resources */,
+				009FFD312B83D0200013B44B /* SF-Pro-Display-Heavy.otf in Resources */,
+				009FFD292B83D0200013B44B /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				009FFD2B2B83D0200013B44B /* SF-Pro-Display-Ultralight.otf in Resources */,
 				009FFD0D2B8274970013B44B /* Assets.xcassets in Resources */,
+				009FFD382B83D0200013B44B /* SF-Pro-Display-Semibold.otf in Resources */,
+				009FFD392B83D0200013B44B /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				009FFD332B83D0200013B44B /* SF-Pro-Display-LightItalic.otf in Resources */,
+				009FFD302B83D0200013B44B /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				009FFD322B83D0200013B44B /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				009FFD2C2B83D0200013B44B /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				009FFD2A2B83D0200013B44B /* SF-Pro-Display-Black.otf in Resources */,
+				009FFD352B83D0200013B44B /* SF-Pro-Display-Bold.otf in Resources */,
+				009FFD2E2B83D0200013B44B /* SF-Pro-Display-Light.otf in Resources */,
+				009FFD3A2B83D0200013B44B /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				009FFD2F2B83D0200013B44B /* SF-Pro-Display-Regular.otf in Resources */,
+				009FFD372B83D0200013B44B /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				009FFD2D2B83D0200013B44B /* SF-Pro-Display-Medium.otf in Resources */,
+				009FFD362B83D0200013B44B /* SF-Pro-Display-HeavyItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +266,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009FFD0B2B8274950013B44B /* ContentView.swift in Sources */,
+				009FFD0B2B8274950013B44B /* HomeView.swift in Sources */,
+				009FFD492B85E1B20013B44B /* K.swift in Sources */,
+				009FFD3F2B85D23D0013B44B /* HourTile.swift in Sources */,
+				009FFD442B85E0650013B44B /* DetailsViewModel.swift in Sources */,
+				009FFD472B85E0CE0013B44B /* HourModel.swift in Sources */,
 				009FFD092B8274950013B44B /* Track_WeatherApp.swift in Sources */,
+				009FFD3D2B846ED50013B44B /* DetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +409,12 @@
 				DEVELOPMENT_TEAM = JTC82K5425;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Track-Weather-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +422,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "app.mahin.Track-Weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,11 +443,12 @@
 				DEVELOPMENT_TEAM = JTC82K5425;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Track-Weather-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +456,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "app.mahin.Track-Weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
